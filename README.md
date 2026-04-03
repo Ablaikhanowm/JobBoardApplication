@@ -1,1 +1,5 @@
 # JobBoardApplication
+
+Designed and developed a full-stack job board platform from scratch using Java and Spring Boot on the backend with a React frontend and PostgreSQL database. The application allow employers to create and manage job listings while job seekers can register, build profiles, search and filter openings, and submit applications with real-time status tracking. Built  a secure user registration and authentication system with role-based access control, separating functionality for employers, applicants, and administrators. Implemented an admin panel with a dashboard for managing users, monitoring job postings, and overseeing application activity across the platform. Designed and structured the PostgreSQL database schema to handle relationships between users, job listings, and applications efficiently. Developed RESTful APIs to connect the React frontend with the Spring Boot backend, ensuring smooth data flow and responsive user interactions throughout the application. 
+
+Going to file uploads, email notifications, saved jobs, job alerts, admin panel, AI Job Matching and AI Resume Parser and Docker Containerization, CI/CD pipeline
