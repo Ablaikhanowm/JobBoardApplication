@@ -1,5 +1,59 @@
 # JobBoardApplication
 
-Designed and developed a full-stack job board platform from scratch using Java and Spring Boot on the backend with a React frontend and PostgreSQL database. The application allow employers to create and manage job listings while job seekers can register, build profiles, search and filter openings, and submit applications with real-time status tracking. Built  a secure user registration and authentication system with role-based access control, separating functionality for employers, applicants, and administrators. Implemented an admin panel with a dashboard for managing users, monitoring job postings, and overseeing application activity across the platform. Designed and structured the PostgreSQL database schema to handle relationships between users, job listings, and applications efficiently. Developed RESTful APIs to connect the React frontend with the Spring Boot backend, ensuring smooth data flow and responsive user interactions throughout the application. 
+A full-stack job board application built with Spring Boot and React.
 
-Going to file uploads, email notifications, saved jobs, job alerts, admin panel, AI Job Matching and AI Resume Parser and Docker Containerization, CI/CD pipeline
+## Features
+
+- 🔐 JWT Authentication (Register/Login)
+- 👔 Employer Dashboard (Create companies, post jobs)
+- 🔍 Job Search (Filters by location, type, experience)
+- 📝 Application System (Apply, track status)
+- 🌐 External Jobs (Real listings from Adzuna API)
+- 📱 Responsive Design
+
+## Tech Stack
+
+**Backend:**
+- Java 23
+- Spring Boot 3.5
+- Spring Security (JWT)
+- Spring Data JPA
+- PostgreSQL
+
+**Frontend:**
+- React 18
+- React Router
+- Axios
+
+
+## Installation
+
+### Prerequisites
+- Java 23
+- Node.js
+- PostgreSQL
+
+### Backend Setup
+```bash
+cd jobboard
+./mvnw spring-boot:run
+```
+
+### Frontend Setup
+```bash
+cd jobboard-frontend
+npm install
+npm start
+```
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/auth/register | Register user |
+| POST | /api/auth/login | Login user |
+| GET | /api/jobs | Get all jobs |
+| POST | /api/jobs | Create job |
+| GET | /api/companies | Get all companies |
+
+Going to upgrade project by: file uploads, email notifications, saved jobs, job alerts, admin panel, AI Job Matching and AI Resume Parser and Docker Containerization, CI/CD pipeline
