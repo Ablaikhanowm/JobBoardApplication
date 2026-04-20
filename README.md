@@ -56,4 +56,5 @@ npm start
 | POST | /api/jobs | Create job |
 | GET | /api/companies | Get all companies |
 
-Going to upgrade project by: file uploads, email notifications, saved jobs, job alerts, admin panel, AI Job Matching and AI Resume Parser and Docker Containerization, CI/CD pipeline
+Going to upgrade project by: file uploads, email notifications, saved jobs, job alerts, admin panel, AI Job Matching and AI Resume Parser and Docker Containerization, CI/CD pipeline, real-time chat
+
